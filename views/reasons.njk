@@ -1,0 +1,38 @@
+{% extends "_base.njk" %}
+
+{% block content %}
+<div class="primary-content">
+  <body>
+    <div class ="banner">
+      <h2>❤&nbsp;&nbsp;&nbsp;Reasons I Love You&nbsp;&nbsp;&nbsp;❤</h2>
+    </div>
+
+    <p>{{ intro }}</p>
+
+    <div class="reasons">
+      <table id="reasons_table">
+          <td style="width: 50%">
+            <ol class="reasons_list">
+              {% for reason in reasons %}
+                <li>{{ reason }}</li>
+              {% endfor %}
+            </ol>
+          </td>
+          <td style="width: 50%" class="collapse">
+            <div id="reasons_imgs">
+
+              {% for picture in pics %}
+                <div class="flex_item">
+                  <img class="right_img" src="{{ picture }}">
+                </div>              
+              {% endfor %}
+
+            </div>
+          </td>
+      </table>
+    </div>
+  </body>
+</div>
+</html>
+
+  {% endblock %}

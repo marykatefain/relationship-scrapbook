@@ -1,0 +1,38 @@
+{% extends "_base.njk" %}
+
+<span class="doodle_background">
+
+{% block content %}
+
+<div class="primary-content" id="doodle">
+
+  <div class ="banner">
+    <h2>~&nbsp;&nbsp;&nbsp;Our Timeline&nbsp;&nbsp;&nbsp;~</h2>
+  </div>
+
+    <section id="timeline">
+
+    {% for event in events %}
+
+      <article>
+        <div class="inner">
+          <span class="date">
+            <span class="day">{{ event.day }}</span>
+            <span class="month">{{ event.month }}</span>
+            <span class="year">{{ event.year }}</span>
+          </span>
+          <h2>{{ event.title }}</h2>
+          <p>{{ event.details }}</p>
+        </div>
+      </article>
+
+    {% endfor %}
+
+
+    </section>
+
+</div>
+
+</html>
+
+{% endblock %}

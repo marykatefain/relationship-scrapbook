@@ -1,0 +1,15 @@
+{% extends "_base.njk" %}
+
+{% block content %}
+  <div class="primary-content">
+    <div>
+      <div class="right-align">
+          <img id="xoxo" src="/assets/images/xoxo.png">
+      </div>
+      {{ letter|safe }}
+      <img id="signature" src="{{ signature }}">
+    </div>
+  </div>
+</html>
+
+{% endblock %}

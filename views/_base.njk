@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="/assets/BxSlider/jquery.bxslider.js"></script>
+    <link href="/assets/BxSlider/jquery.bxslider.css" rel="stylesheet" />
+
+    <title>{{ global.sitetitle }}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="heading">
+          <img class="header" src="{{ global.headerimg }}">
+      </div>
+
+      <div class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/scrapbook">Scrapbook</a></li>
+          <li><a href="/timeline">Timeline</a></li>
+          <li><a href="/reasons">Reasons</a></li>
+          <div class="dropdown">
+            <li class="dropbtn"> <a href="/future">Future</a></li>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="/food">Food to Try</a>
+                <a href="/explore">Places to Go</a>
+                <a href="/projects">Projects to Do</a>
+              </div>
+          </div>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="content">
+      {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+      <p>This website is licenced under <a href ="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPL</a>.</p>
+    </footer>
+
+  </body>
+
+</html>

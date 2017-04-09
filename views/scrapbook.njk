@@ -1,0 +1,30 @@
+{% extends "_base.njk" %}
+
+{% block content %}
+<div class="primary-content">
+
+  <div class ="banner">
+    <h2>~&nbsp;&nbsp;&nbsp;Our Scrapbook&nbs;p&nbsp;&nbsp;~</h2>
+  </div>
+
+  <div class ="scrapbook">
+    <ul class="bxslider">
+      {% for page in pages %}
+        <li><img src="{{ page }}" /></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+          mode: 'fade',
+          captions: true,
+          auto: true,
+          autoControls: true
+      });
+    });
+  </script>
+</div>
+
+{% endblock %}
