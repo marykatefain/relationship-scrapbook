@@ -2,31 +2,31 @@ var nunjucks = require('nunjucks');
 
 var express = require("express");
 
-var projects = require("./data/projects.json").projects;
+var projects = require("./example_data/projects_example.json").projects;
 
-var explore = require("./data/explore.json").explore;
+var explore = require("./example_data/explore_example.json").explore;
 
-var food = require("./data/food.json").food;
+var food = require("./example_data/food_example.json").food;
 
-var signature = require('./data/signature.json').signature;
+var signature = require('./example_data/signature_example.json').signature;
 
-var pages = require('./data/scrapbook.json').pages;
+var pages = require('./example_data/scrapbook_example.json').pages;
 
-var timeline = require('./data/timeline.json').events;
+var timeline = require('./example_data/timeline_example.json').events;
 
-var reasons = require('./data/reasons.json');
+var reasons = require('./example_data/reasons_example.json');
 
 
-var siteconfig = require("./data/global.json");
+var siteconfig = require("./example_data/global_example.json");
 
 var fs = require('fs');
-var letter = fs.readFileSync("./data/letter.html");
+var letter = fs.readFileSync("./example_data/letter_example.html");
 
 var app = express();
 
 app.use(express.static('public'));
 
-app.use('/media', express.static('media'));
+app.use('/example_media', express.static('example_media'));
 
 
 nunjucks.configure('views', {

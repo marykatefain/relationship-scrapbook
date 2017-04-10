@@ -1,0 +1,37 @@
+{
+  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a felis finibus, facilisis purus vitae, porttitor risus. Vivamus bibendum lacinia imperdiet. Aliquam erat volutpat. Ut turpis dui, egestas in felis vel, semper fermentum leo. Cras purus nunc, tincidunt eu convallis sed, maximus eget eros. Cras a leo ac ex euismod tristique id a mi. Sed vel pulvinar nulla, congue maximus purus. Phasellus eget diam in metus sagittis facilisis. Quisque in turpis non neque venenatis efficitur ac in augue. Nullam et quam ut felis consectetur consectetur sed et enim.",
+
+  "why": [
+    "You respect and value me",
+    "You can always make me smile or laugh, even when I'm mad at you",
+    "Your silliness",
+    "You have a great mind that is going to change the world one day",
+    "I still get butterflies when you look at me",
+    "I feel safe and loved when I am with you",
+    "You bring so much joy and happieness into my life",
+    "You are creative",
+    "We can talk for hours and hours about almost anything without running out of things to say",
+    "You hold things together when I feel like they are falling apart",
+    "I feel at home with you",
+    "You are brave and encourage me to be braver",
+    "You are loyal to your friends",
+    "You are generous",
+    "You push me to be the best version of myself",
+    "You see the potential in people, and want to help them achieve it",
+    "You are super cute",
+    "When we touch it's like magic, and I never want it to stop",
+    "We have great communcation",
+    "You have always been so sure of us, and make me feel secure",
+    "You still think I'm cute even though you've seen me at my grossest",
+    "You are adaptable to all kinds of crazy situations",
+    "We are an unstoppable team together",
+    "We may actually be perfect for eachother"
+  ],
+
+  "pics": [
+    "/example_media/couple1.jpg",
+    "/example_media/couple2.jpg",
+    "/example_media/couple3.jpg"
+  ]
+
+}
