@@ -1,7 +1,16 @@
 # relationship-scrapbook
 Surprise your partner with a cute digital scrapbook celebrating your relationship! Just fill in the blanks!
 
-**Work in progress. Instructions on getting started coming soon.**
+Written in express using node and nunjucks.
+
+To get started:
+
+`npm install`
+`npm run start`
+
+To deploy:
+
+`npm run deploy`
 
 _____________________________________________________________________________________
 
@@ -12,3 +21,6 @@ ________________________________________________________________________________
 
 **Reasons I Love You page example:**
 ![screenshot_reasons](https://cloud.githubusercontent.com/assets/17955536/24842175/cae13656-1d61-11e7-9e5e-8e9915458701.jpeg)
+
+**License**
+This project is licensed under GNU GPL 3.0. See the License file for more information.
